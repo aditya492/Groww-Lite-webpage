@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import { Button } from './Button';
+import { Button } from '../Button';
 import { Link } from 'react-router-dom';
 
 function Footer() {
@@ -8,7 +8,9 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join the Adventure newsletter to receive our best vacation deals
+        No.11,2nd floor,80 FT road 
+        4th Block,S.T Bed
+        Kormangala,Bengaluru - 560034
         </p>
         <p className='footer-subscription-text'>
           You can unsubscribe at any time.
@@ -64,11 +66,11 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              TRAVEL WITH ADI
-              <i class='fab fa-typo3' />
+              Groww lite 
+              <img src="images/download.jpg" height="60" width="60"/>
             </Link>
           </div>
-          <small class='website-rights'>TRAVEL WITH ADI © 2020</small>
+          <small class='website-rights'>Groww lite © 2021</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'
