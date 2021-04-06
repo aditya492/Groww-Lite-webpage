@@ -148,6 +148,23 @@ h1 {
   }
 }
 
+@media only screen and (max-width:1121px)
+{
+  .stocks {
+    height: 226px;
+    width: 480px;
+  }
+  .btn-stocks {
+    padding: 8px;
+    font-size: 15px;
+  }
+
+  .description{
+    height:auto;
+  }
+
+}
+
 @media only screen and (min-width: 1024px) {
   .cards__items {
     display: flex;
@@ -159,3 +176,21 @@ h1 {
     margin-bottom: 2rem;
   }
 }
+
+@media only screen and (max-width:830px){
+ .stocks
+{
+  height: 187px;
+    width: 260px;
+    margin-top: -72px;
+    visibility: hidden;
+  }
+  
+}
+
+@media only screen and (max-width:580px){
+  .mainText{
+    margin-right: 300px;
+  }
+}
+

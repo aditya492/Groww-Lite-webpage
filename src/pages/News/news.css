@@ -1,0 +1,18 @@
+.outerDiv{
+	height: 48vh;
+    border: 2px solid gray;
+    margin-bottom: 39px;
+}
+
+.image{
+	float: left;
+    height: 47vh;
+    width: 51vh;
+}
+
+.list{
+	float:left;
+	font-size: 22px;
+	text-decoration:none;
+	font-weight:500;
+}

@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\pages",
+    "\\src\\pages\\News",
+    "\\src\\views",
+    "\\src\\views\\App",
+    "\\src\\views\\Errror",
+    "\\src\\views\\Footer",
+    "\\src\\views\\HeroSection",
+    "\\src\\views\\Navbar"
+  ],
+  "SelectedNode": "\\src\\views\\App\\index.js",
+  "PreviewInSolutionExplorer": false
+}

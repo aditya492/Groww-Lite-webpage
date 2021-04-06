@@ -67,7 +67,7 @@ function Footer() {
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
               Groww lite 
-              <img src="images/download.jpg" height="60" width="60"/>
+              <img src="images/download.jpg" height="60" width="60" style={{borderRadius:"38px"}}/>
             </Link>
           </div>
           <small class='website-rights'>Groww lite © 2021</small>

@@ -6,8 +6,8 @@ class Errror extends Component{
      return(
 
      	<>
-            <h1>page Not Found</h1>
-     	</>
+             <h1>page Not Found</h1>
+       	</>
      	)
   }
 }

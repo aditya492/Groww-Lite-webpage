@@ -11,7 +11,7 @@ function Navbar() {
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
-
+  
   const showButton = () => {
     if (window.innerWidth <= 960) {
       setButton(false);
@@ -26,6 +26,9 @@ function Navbar() {
 
   window.addEventListener('resize', showButton);
 
+ 
+
+
   return (
     <>
       <nav className='navbar'>
@@ -33,7 +36,7 @@ function Navbar() {
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             Groww lite
              <img src="images/download.jpg" width="60" height="60"/>
-          </Link>  <div className="explore"><Link to='/explore' className="nav-links"><span>Explore</span></Link></div>
+          </Link>  <div className="explore"><a href="https://groww.in/explore/stocks" target="_blank" style={{textDecoration:"none",color:"black"}}><span>Explore</span></a></div>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>

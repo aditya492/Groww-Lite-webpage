@@ -4,6 +4,7 @@ import { Button } from '../Button';
 import './HeroSection.css';
 import Cards from '../Cards'
 import Footer from '../Footer'
+import  {Link} from 'react-router-dom'
 
 const textArray=['Gold','Stocks','FDs','Mutual Funds']
 const color=['orange','lightgreen','red','yellow']
@@ -54,7 +55,7 @@ componentDidUnmount(){
           buttonSize='btn--large'
           onClick={console.log('hey')}
         >
-          WATCH TRAILER <i className='far fa-play-circle' />
+          Get Started <i className='far fa-play-circle' />
         </Button>
       </div>
     </div>

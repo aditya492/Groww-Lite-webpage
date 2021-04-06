@@ -5,6 +5,7 @@ import HeroSection from '../HeroSection'
 import productApp from '../Products/productApp'
 import About from '../../pages/About'
 import signUp from '../../pages/signUp'
+import News from '../../pages/News'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Errror from '../Errror'
 
@@ -23,6 +24,7 @@ function App() {
          <Route path="/stocks"  component={HeroSection}/>
          <Route path="/gold"  component={HeroSection}/>
          <Route path="/About"  component={About}/>
+         <Route path="/dailyNews"  component={News}/>
          <Route  component={Errror}/>
 
         </Switch>
